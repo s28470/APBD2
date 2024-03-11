@@ -8,13 +8,13 @@
     }
 
 
-    public static double FindAverage(int[] tab) {
+    public static double FindAverage(int[] array) {
         double average = 0;
-        foreach (var i in tab) {
+        foreach (var i in array) {
             average += i;
         }
 
-        return average / tab.Length;
+        return average / array.Length;
     }
 
     public static int FindMax(int[] tab)
